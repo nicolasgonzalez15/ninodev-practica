@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>NINO DEV</title>
+</head>
+<body>
+    <header id="header">
+        <div id="container" class="container">
+            <div id="logo-container">
+                <img src="img/logo.png" alt="Imagen logo">
+                <a href="index.html" >NINO</a>
+            </div>
+            <div class="sociales">
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="principal" class="principal">
+        <h1>NINO DEV</h1>
+        <h2>BIENVENIDOS A MI SITIO WEB</h2>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+    <main id="main" class="main">
+        <section id="nosotros" class="section">
+            <div class="contenido">
+                <h2>Nosotros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorem ea aut aperiam, excepturi fuga?</p>
+            </div>
+        </section>
+        <section id="servicios" class="section">
+            <div class="contenido">
+                <h2>Servicios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorem ea aut aperiam, excepturi fuga?</p>
+                <img src="img/flowers.jpg" alt="Servicios">
+            </div>
+        </section>
+        <section id="productos" class="section">
+            <div class="contenido">
+                <h2>Productos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorem ea aut aperiam, excepturi fuga?</p>
+            </div>
+        </section>
+        <section id="contacto" class="section">
+        <div class="contenido">
+            <h2>Formulario de contacto</h2>
+            <p>Envíanos tus comentarios y te responderemos a la brevedad</p>
+            <br><br>
+            <form action="contacto.php" method="post">
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Ej: mail@dominio.xxx" required>
+                <br><br>
+
+                <label for="comentarios">Comentarios</label>
+                <br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Tus comentarios."></textarea>
+                <br><br>
+
+                <button type="submit" name="Enviar" value="Enviar">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </div>
+        </section>
+        <footer id="footer" class="footer">
+            <div class="container-footer">
+                <p>Footer</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
