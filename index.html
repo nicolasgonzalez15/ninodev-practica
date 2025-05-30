@@ -5,87 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>NINO DEV</title>
+    <title>Nino Dev</title>
 </head>
 <body>
     <header id="header">
-        <div id="container" class="container">
-            <div id="logo-container">
+        <div class="container">
+            <div class="logo">
                 <img src="img/logo.png" alt="Imagen logo">
-                <a href="index.html" >NINO</a>
+                <a href="#">NINO</a>
             </div>
-            <div class="sociales">
-                <a href="#" class="fa fa-github"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-            </div>
-            <nav id="nav">
+            <nav>
                 <ul>
-                    <li><a href="#">NOSOTROS</a></li>
-                    <li><a href="#">SERVICIOS</a></li>
-                    <li><a href="#">PRODUCTOS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#servicios">SERVICIOS</a></li>
+                    <li><a href="#productos">PRODUCTOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#">REDES</a>
+                        <ul class="dropdown">
+                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-github"></a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div id="principal" class="principal">
-        <h1>NINO DEV</h1>
-        <h2>BIENVENIDOS A MI SITIO WEB</h2>
-        <p>Lorem, ipsum dolor.</p>
-    </div>
-    <main id="main" class="main">
+    <main id="main">
+        <div id="principal" class="principal">
+            <h1>NINO DEV</h1>
+            <h2>BIENVENIDOS A MI SITIO WEB. WELCOME TO MY WEBSITE.</h2>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
         <section id="nosotros" class="section">
             <div class="contenido">
                 <h2>Nosotros</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorem ea aut aperiam, excepturi fuga?</p>
+                <p>Somos una consultora especializada en la búsqueda y selección de talento tecnológico. Nuestra misión es ayudar a las empresas a encontrar a los profesionales ideales para sus equipos, y a los profesionales a encontrar las oportunidades que impulsen sus carreras. Contamos con un equipo de expertos en el sector IT y una amplia red de contactos, lo que nos permite ofrecer un servicio personalizado y eficiente.</p>
             </div>
         </section>
         <section id="servicios" class="section">
             <div class="contenido">
                 <h2>Servicios</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorem ea aut aperiam, excepturi fuga?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia error numquam ullam? Molestiae voluptas, dolore quaerat quia ut molestias ullam aut impedit assumenda vitae possimus fuga eaque adipisci in perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla eum similique fugit aut aperiam fuga earum nam repellendus necessitatibus unde nobis quo, porro illum labore itaque sunt iusto aliquam!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia error numquam ullam? Molestiae voluptas, dolore quaerat quia ut molestias ullam aut impedit assumenda vitae possimus fuga eaque adipisci in perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla eum similique fugit aut aperiam fuga earum nam repellendus necessitatibus unde nobis quo, porro illum labore itaque sunt iusto aliquam!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni molestiae laudantium expedita sed ratione ipsam nesciunt aspernatur voluptatibus similique! Odit tempore repellat alias unde. Accusamus facere in quo laudantium vel.</p>
                 <img src="img/flowers.jpg" alt="Servicios">
             </div>
         </section>
         <section id="productos" class="section">
             <div class="contenido">
                 <h2>Productos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorem ea aut aperiam, excepturi fuga?</p>
+                <div class="box-container">
+                    <div class="box">
+                        <h2>Titulo</h2>
+                        <img src="img/tree.png" alt="Arbol">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                       
+                    </div>
+                    <div class="box">
+                        <h2>Titulo</h2>
+                        <img src="img/tree.png" alt="Arbol">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           
+                    </div>
+                    <div class="box">
+                        <h2>Titulo</h2>
+                        <img src="img/tree.png" alt="Arbol">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        
+                    </div>
+                </div>
+              </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <div class="contenido">
+                <h2>Contacto</h2>
+                <p>Envianos tus comentarios y te estaremos contactando a la brevedad.</p>
+                <br>
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre">
+                    <br><br>
+                    <label for="mail">Mail</label>
+                    <input type="email" name="mail" id="main" required placeholder="Ej: nombre@dominio.com">
+                    <br><br>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios" required placeholder="Ingrese sus comentarios..."></textarea>
+                    <br><br>
+                    <button class="btn" type="submit" name="Enviar" value="Enviar">Enviar</button>
+                    <button class="btn" type="reset">Limpiar</button>
+                </form>
             </div>
         </section>
-        <section id="contacto" class="section">
-        <div class="contenido">
-            <h2>Formulario de contacto</h2>
-            <p>Envíanos tus comentarios y te responderemos a la brevedad</p>
-            <br><br>
-            <form action="contacto.php" method="post">
-                <label for="nombre">Nombre</label>
-                <br>
-                <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
-                <br><br>
-
-                <label for="email">Email</label>
-                <br>
-                <input type="email" name="email" id="email" placeholder="Ej: mail@dominio.xxx" required>
-                <br><br>
-
-                <label for="comentarios">Comentarios</label>
-                <br>
-                <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Tus comentarios."></textarea>
-                <br><br>
-
-                <button type="submit" name="Enviar" value="Enviar">Enviar</button>
-                <button type="reset">Limpiar</button>
-            </form>
-        </div>
-        </section>
-        <footer id="footer" class="footer">
-            <div class="container-footer">
-                <p>Footer</p>
-            </div>
-        </footer>
     </main>
+    <footer id="footer" class="footer">
+        <div id="footer-container">
+            <p>© 2025 NINODEV · Desarrollado por Nicolás González </p>
+        </div>
+    </footer>
 </body>
 </html>
