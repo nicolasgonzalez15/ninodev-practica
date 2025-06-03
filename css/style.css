@@ -87,7 +87,7 @@ ul li ul:hover{
     visibility: visible;
     display:block;
     float: right;
-    opacity: 2;
+    opacity: 1;
 
 }
 
@@ -114,7 +114,6 @@ ul li ul li{
     text-shadow: #333333 2px 0 7px;
 }
 .principal p{
-    font-size: 1.2em;
     margin-bottom: 30px;
     padding: 10px;
     margin: 10px 0;
